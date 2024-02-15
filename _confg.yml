@@ -1,4 +1,5 @@
 # Where things are
+them                : Slate
 source              : .
 destination         : ./_site
 collections_dir     : .
