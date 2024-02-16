@@ -1,162 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/a489e0e418.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Safae & Saliha & Dounia |  Artist creater & UI/UX Designer & Game designer </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .feature img {
+            max-width: 200px;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <!-- Header -->
-  <header id="header-home">
+    <header>
+        <h1>Your Project Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="link_to_deployed_project" class="button">Deployed Project</a>
+    </header>
+
     <div class="container">
-      <nav id="main-nav">
-        <img src="img/logo.png" alt="logo" id="logo">
-        <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <img src="feature1_image.jpg" alt="Feature 1">
+                <div>
+                    <h3>Feature 1</h3>
+                    <p>Description of Feature 1</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="feature2_image.jpg" alt="Feature 2">
+                <div>
+                    <h3>Feature 2</h3>
+                    <p>Description of Feature 2</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="feature3_image.jpg" alt="Feature 3">
+                <div>
+                    <h3>Feature 3</h3>
+                    <p>Description of Feature 3</p>
+                </div>
+            </div>
+        </section>
 
-      <div class="header-content">
-        <h1>We are Safae Sahih, Saliha  Lammari and  Dounia Bendib, The <span class="txt-type" data-wait="3000" data-words='[ "Artist creater",  "Designers UI/UX Dev", "Game designer"]'></span></h1>
-        <p class="lead"></p>
-        <a href="work.html" class="btn-light">View Our Work</a>
-      </div>
+        <section id="about">
+            <h2>About</h2>
+            <p>Description of what inspired the project...</p>
+            <p>This is a Portfolio Project for Holberton School. You can find the project repository <a href="link_to_github_repository">here</a>.</p>
+            <p>Links to team members:</p>
+            <ul>
+                <li><a href="link_to_linkedin">LinkedIn</a></li>
+                <li><a href="link_to_github">GitHub</a></li>
+                <li><a href="link_to_twitter">Twitter</a></li>
+            </ul>
+        </section>
     </div>
-  </header>
 
-  <!-- Section A: Specialize -->
-  <section id="home-a" class="text-center py-2">
-    <div class="container">
-      <h2 class="section-title">We Specialize In</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">in creating digital masterpieces and UI/UX layouts for webistes and mobile applications</p>
-      <div class="specials">
-        <div>
-          <i class="fas fa-file-alt fa-2x"></i>
-            <h3>Concepting</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nisi beatae voluptate pariatur consectetur laboriosam ratione quisquam deleniti deserunt nam.</p>
-        </div>
-
-        <div>
-          <i class="fas fa-desktop fa-2x"></i>
-            <h3>UI/UX</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nisi beatae voluptate pariatur consectetur laboriosam ratione quisquam deleniti deserunt nam.</p>
-        </div>
-
-        <div>
-          <i class="fas fa-object-ungroup fa-2x"></i>
-            <h3>Visual Design</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nisi beatae voluptate pariatur consectetur laboriosam ratione quisquam deleniti deserunt nam.</p>
-        </div>
-
-        <div>
-          <i class="fas fa-thumbs-up fa-2x"></i>
-            <h3>Interaction</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error nisi beatae voluptate pariatur consectetur laboriosam ratione quisquam deleniti deserunt nam.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section B: Stats -->
-  <section id="home-b" class="text-center py-2">
-    <div class="stats">
-      <div>
-        <ul>
-          <li><i class="fas fa-users fa-3x"></i></li>
-          <li class="stats-title">Clients</li>
-          <li class="stats-number">100</li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li><i class="fas fa-award fa-3x"></i></li>
-          <li class="stats-title">Awards</li>
-          <li class="stats-number">3</li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li><i class="fas fa-hourglass-start fa-3x"></i></li>
-          <li class="stats-title">Hours Worked</li>
-          <li class="stats-number">3500</li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li><i class="fas fa-code-branch fa-3x"></i></li>
-          <li class="stats-title">Projects Completed</li>
-          <li class="stats-number">135</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section C: Process -->
-  <section id="home-c" class="text-center py-2">
-    <div class="container">
-      <h2 class="section-title">Our Creative Process</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">All of Our UI/UX and design projects are based off of a practiced formula to get the result that We are looking for</p>
-      <div class="process">
-        <div>
-          <i class="fas fa-file-alt fa-4x process-icon my-2">
-            <div class="process-step">1</div>
-          </i>
-          <h3>Discuss The Project</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati natus ratione voluptates, animi accusamus!</p>
-        </div>
-
-        <div>
-          <i class="fas fa-desktop fa-4x process-icon my-2">
-            <div class="process-step">2</div>
-          </i>
-          <h3>Brainstorming & Concept</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati natus ratione voluptates, animi accusamus!</p>
-        </div>
-
-        <div>
-          <i class="fas fa-object-ungroup fa-4x process-icon my-2">
-            <div class="process-step">3</div>
-          </i>
-          <h3>UI/UX Planning</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati natus ratione voluptates, animi accusamus!</p>
-        </div>
-
-        <div>
-          <i class="fas fa-thumbs-up fa-4x process-icon my-2">
-            <div class="process-step">4</div>
-          </i>
-          <h3>Interaction</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati natus ratione voluptates, animi accusamus!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2023. All Rights Reserved.</p>
-      <div class="social">
-        <a href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="http://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="http://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="http://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/typewriter.js"></script>
+    <footer>
+        <p>&copy; 2024 Your Project. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
