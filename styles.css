@@ -86,3 +86,11 @@
           color: rgb(0, 0, 127);
           text-align: center;
         }
+        h2 {
+          color: rgb(0, 0, 177);
+          text-align: center;
+        }
+        h3 {
+          color: rgb(0, 0, 200);
+          text-align: center;
+        }
